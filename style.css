@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.form-container form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-container form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-container form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #5c7cfa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container form button:hover {
+    background-color: #4263eb;
+}
+
+.cancel-btn {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container table th,
+.table-container table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-container table th {
+    background-color: #5c7cfa;
+    color: #fff;
+}
+
+.table-container table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table-container table a {
+    color: #4263eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.table-container table a:hover {
+    text-decoration: underline;
+}

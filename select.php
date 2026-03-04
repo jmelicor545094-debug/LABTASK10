@@ -1,0 +1,12 @@
+<?php
+require 'config.php';
+
+$stmt = $pdo->prepare("
+    SELECT u.user_id, u.name, u.email, o.orders_id, o.product, o.amount
+    FROM users u
+    LEFT JOIN orders o ON u.user_id = o.user_id
+    ORDER BY u.user_id
+");
+$stmt->execute();
+$users = $stmt->fetchAll(PDO::FETCH_ASSOC);
+?>
